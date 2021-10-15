@@ -1,4 +1,5 @@
 #include "get_next_line.h"
+#include "get_next_line.h"
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -28,29 +29,23 @@ void	ft_putstr_fd(char *s, int fd)
 
 char *get_next_line(int fd)
 {
-	char buffer[BUFFER_SIZE + 1];
+	char *buffer = malloc(sizeof(char) * BUFFER_SIZE + 1);
 	char *res = malloc(sizeof(char) * BUFFER_SIZE + 1);
 	if (fd < 0 || !res || BUFFER_SIZE <= 0)
 		return NULL;
-
 	int btreaded = read(fd, buffer, BUFFER_SIZE);
-	if (btreaded != 0)
+	if (btreaded < 0)
 		return NULL;
 	buffer[btreaded] = '\0';
-
+	if (!buffer[fd])
+		buffer[fd] = *ft_strdup("");
 	int i = 0;
-	while(ft_strchr(buffer, '\n') != 0|| buffer[i])
+	while(buffer[i] && buffer[i] != '\n')
 	{
 		res[i] = buffer[i];
 		i++;
 	}
 	res[i] = '\0';
-	printf("%s", res);
+	printf("%s",res);
 	return res;
-}
-
-int main()
-{
-    int fd = open("test.txt", O_RDONLY);
-    get_next_line(fd);
 }
