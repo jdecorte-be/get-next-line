@@ -1,3 +1,69 @@
+<header>
+<h1 align="center">
+  <a href="https://github.com/jdecorte-be/get-next-line"><img src=".assets/banner.png" alt="get-next-line" ></a>
+  get-next-line
+  <br>
+</h1>
+
+<p align="center">
+  An efficient C function to read a file line by line. A classic 42 School project focusing on file descriptors, static variables, and memory management.
+</p>
+
+<p align="center">
+<a href="https://www.42network.org/">
+    <img src="https://img.shields.io/badge/School-42%20Network-000000?logo=42&logoColor=white&labelColor=000000"
+         alt="School 42 Network">
+  </a>
+<a href="#">
+    <img src="https://img.shields.io/badge/Focus-File%20I%2FO-007ec6?logo=c&logoColor=white&labelColor=000000"
+         alt="Focus File I/O">
+  </a>
+<a href="#">
+    <img src="https://img.shields.io/badge/Type-C%20Function-555555?logo=c&logoColor=white&labelColor=000000"
+         alt="Type C Function">
+  </a>
+<a href="#">
+    <img src="https://img.shields.io/badge/Key%20Concept-File%20Descriptors-f08d49?labelColor=000000"
+         alt="Key Concept File Descriptors">
+  </a>
+</p>
+
+<p align="center">
+<a href="#">
+    <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20macOS-333333?logo=linux&logoColor=white&labelColor=000000"
+         alt="Platform Linux | macOS">
+  </a>
+  <a href="https://cr0w.gitbook.io/j0xhn/42-school/get-next-line">
+    <img src="https://img.shields.io/badge/Homepage-Online-success?logo=vercel&logoColor=white&labelColor=000000&color=A6E22E"
+         alt="get-next-line homepage">
+  </a>
+  <a href="https://github.com/jdecorte-be/get-next-line/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/License-GPL--3.0-AE81FF?labelColor=000000"
+         alt="get-next-line license">
+  </a>
+  <a href="https://github.com/jdecorte-be/get-next-line/stargazers">
+    <img src="https://img.shields.io/github/stars/jdecorte-be/get-next-line?logo=star&logoColor=white&labelColor=000000&color=E6DB74"
+         alt="get-next-line stars">
+  </a>
+  <a href="https://github.com/jdecorte-be/get-next-line/issues">
+    <img src="https://img.shields.io/github/issues/jdecorte-be/get-next-line?logoColor=white&labelColor=000000&color=orange"
+         alt="get-next-line issues">
+  </a>
+  <a href="https://github.com/jdecorte-be/get-next-line">
+    <img src="https://img.shields.io/github/repo-size/jdecorte-be/get-next-line?logo=database&logoColor=white&labelColor=000000&color=AE81FF"
+         alt="get-next-line repo size">
+  </a>
+</p>
+<p align="center">
+  <a href="#static-buffer-our-faithful-memory-keeper">Static Buffer: Our Faithful Memory Keeper</a> •
+  <a href="#how-it-works-in-getnextline">How It Works in get_next_line</a> •
+  <a href="#why-static-is-perfect-for-this-job">Why Static is Perfect for This Job</a> •
+  <a href="#the-catch-because-theres-always-one">The Catch (Because There's Always One)</a> •
+  <a href="#how-that-work">How that work?</a> •
+  <a href="#the-magic-behind-the-scenes">The Magic Behind the Scenes</a> •
+  <a href="#in-action">In Action</a>
+</p>
+</header>
 
 ![alt text](img/banner.png)
 
