@@ -33,10 +33,7 @@
     <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20macOS-333333?logo=linux&logoColor=white&labelColor=000000"
          alt="Platform Linux | macOS">
   </a>
-  <a href="https://cr0w.gitbook.io/j0xhn/42-school/get-next-line">
-    <img src="https://img.shields.io/badge/Homepage-Online-success?logo=vercel&logoColor=white&labelColor=000000&color=A6E22E"
-         alt="get-next-line homepage">
-  </a>
+
   <a href="https://github.com/jdecorte-be/get-next-line/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-GPL--3.0-AE81FF?labelColor=000000"
          alt="get-next-line license">
