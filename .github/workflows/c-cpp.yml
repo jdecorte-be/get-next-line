@@ -16,4 +16,4 @@ jobs:
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y build-essential
       - name: Build
-        run: gcc -Wall -Wextra -Werror -D BUFFER_SIZE=1 -o output get_next_line.c get_next_line_utils.c && gcc -Wall -Wextra -Werror -D BUFFER_SIZE=1 -o output get_next_line_bonus.c get_next_line_utils_bonus.c 
+        run: gcc -Wall -Wextra -Werror -D BUFFER_SIZE=1 -o output get_next_line.c get_next_line_utils.c main.c && gcc -Wall -Wextra -Werror -D BUFFER_SIZE=1 -o output get_next_line_bonus.c get_next_line_utils_bonus.c main.c 
