@@ -62,8 +62,6 @@
 </p>
 </header>
 
-![alt text](img/banner.png)
-
 
 You will understand how files are opened, read and closed in an OS,
 and how they are interpreted by a programming language for further analysis.
@@ -352,7 +350,7 @@ How it works:
 3. **Return**: It returns the newly created string.
 
 ## Code Flow Chart
-![alt text](img/mindmap.png)
+![alt text](.assets/mindmap.png)
 
 And there you have it! That's how this implementation of `get_next_line` works. It's a clever use of static variables, dynamic memory allocation, and string manipulation to solve the problem of reading a file line by line.
 Remember, the key challenges here are handling partial reads, dealing with lines of unknown length, and managing memory efficiently. This solution tackles all of these issues head-on!
